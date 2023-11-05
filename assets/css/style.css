@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400;1,500;1,600&display=swap');
+
+
+body {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 14px;
+	color: #888;
+}
+
+.navbar .nav-item {
+	padding: 0 0.625rem;
+	transition: all 200ms linear;
+}
+
+.navbar .nav-item a {
+	font-family: 'poppins';
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.navbar .proposal {
+	font-family: 'poppins';
+	font-weight: 600;
+	font-size: 18px;
+	border-radius: 5px;
+	background: linear-gradient(0.25turn, #032aa8, #0b76ef);
+}
+
+
+.section h1{
+	font-size: 50px;
+	font-family: 'poppins';
+	font-weight: 800;
+}
+
+.section p {
+	font-family: 'poppins';
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.section button {
+	background: linear-gradient(0.25turn, #032aa8, #0b76ef);
+	font-family: 'poppins';
+	font-weight: 600;
+	font-size: 18px;
+	border-radius: 5px;
+
+}
+
+/* CLIENT */
+.clients {
+	background-color: rgba(69, 119, 255, 0.086)
+}
+
+.clients h2 {
+	font-weight: 800;
+	padding-bottom: 15px;
+
+}
+
+.clients .clients-wrap {
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+}
+
+.clients .client-logo {
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+	background: #fff;
+	height: 120px;
+}
+
+.clients .client-logo img {
+	height: 50%;
+	transition: 0.3s;
+}
+
+.clients .client-logo:hover img {
+	filter: none;
+	transform: scale(1.2);
+}
+
+.clients img {
+	transition: all 0.4s ease-in-out;
+}
+
+/* ENDCLIEND */
+
+/* ABOUT */
+.about .content h3 {
+	font-weight: 800;
+	font-size: 42px;
+}
+
+.about .content ul {
+	list-style: none;
+	padding: 0;
+}
+
+.about .content ul li {
+	padding-bottom: 10px;
+}
+
+.about .content ul i {
+	font-size: 20px;
+	padding-right: 4px;
+	color: #16df7e;
+}
+
+.about .content p:last-child {
+	margin-bottom: 0;
+}
+
+/* ABOUT */
+
+.features .image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+}
+
+/* NEWSLETTER */
+.newsletter {
+	background-color: #0837d1;
+}
+
+/* COUNTER */
+
+.projectFactsWrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+#projectFacts .fullWidth {
+	padding: 0;
+}
+
+.projectFactsWrap .item {
+	width: 25%;
+	height: 100%;
+	padding: 50px 0px;
+	text-align: center;
+}
+
+.projectFactsWrap .item:nth-child(1) {
+	background: rgba(4, 125, 246, 0.277);
+}
+
+.projectFactsWrap .item:nth-child(2) {
+	background: rgba(4, 125, 246, 0.277);
+}
+
+.projectFactsWrap .item:nth-child(3) {
+	background: rgba(4, 125, 246, 0.277);
+}
+
+.projectFactsWrap .item:nth-child(4) {
+	background: rgba(4, 125, 246, 0.277);
+}
+
+.projectFactsWrap .item p.number {
+	font-size: 40px;
+	padding: 0;
+	font-weight: bold;
+}
+
+.projectFactsWrap .item p{
+	color: #050063 font-size: 18px;
+	margin: 0;
+	padding: 10px;
+	font-family: 'poppins';
+}
+
+
+.projectFactsWrap .item span {
+	width: 60px;
+	background: #050063;
+	height: 2px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.projectFactsWrap .item i {
+	vertical-align: middle;
+	font-size: 50px;
+	color: #050063
+}
+
+
+.projectFactsWrap .item:hover i,
+.projectFactsWrap .item:hover p {
+	color: rgb(42, 37, 37);
+}
+
+.projectFactsWrap .item:hover span {
+	background: rgb(65, 60, 60);
+}
+
+@media (max-width: 786px) {
+	.projectFactsWrap .item {
+		flex: 0 0 50%;
+	}
+}
+
+.values .box {
+	padding: 30px;
+	box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+	text-align: center;
+	transition: 0.3s;
+	height: 100%;
+  }
+
+  .values .box button{
+	align-items: center;
+  }
+  
+  .values .box img {
+	padding: 30px 50px;
+	transition: 0.5s;
+	transform: scale(1.1);
+  }
+  
+  .values .box h3 {
+	font-size: 24px;
+	color: #012970;
+	font-weight: 700;
+	margin-bottom: 18px;
+  }
+  
+  .values .box:hover {
+	box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  }
+  
+  .values .box:hover img {
+	transform: scale(1);
+  }
+
+/* FOOTER */
+
+.footer {
+	background-color: #0837d1;
+}
